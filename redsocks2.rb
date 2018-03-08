@@ -18,8 +18,8 @@ class Redsocks2 < Formula
 
   stable do
     url 'https://github.com/VixsTy/redsocks.git',
-      :using => GitNoDepthDownloadStrategy, :shallow => false, :tag => "0.7.2-macos"
-    version "0.7.2-macos"
+      :using => GitNoDepthDownloadStrategy, :shallow => false, :tag => "0.7.3-macos"
+    version "0.7.3-macos"
   end
 
   head do
