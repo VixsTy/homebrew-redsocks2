@@ -32,7 +32,7 @@ class Redsocks2 < Formula
   depends_on "libevent"
 
   def install
-    system "git submodule update --init --recursive"
+    system "git submodule update --init darwin-xnu/$(sw_vers -productVersion | cut -d '.' -f 1,2)"
     system "make"
     bin.install "redsocks2"
     man8.install "debian/redsocks.8"
