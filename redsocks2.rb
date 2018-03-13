@@ -14,11 +14,11 @@ end
 class Redsocks2 < Formula
   desc "Transparent socks redirector"
   homepage "https://github.com/VixsTy/redsocks"
-  version "0.7.7-macos"
+  version "0.7.0-macos"
 
   stable do
     url 'https://github.com/VixsTy/redsocks.git',
-      :using => GitNoDepthDownloadStrategy, :shallow => false, :tag => "0.7.7-macos"
+      :using => GitNoDepthDownloadStrategy, :shallow => false, :tag => "0.7.0-macos"
   end
 
   head do
@@ -27,10 +27,10 @@ class Redsocks2 < Formula
   end
 
   bottle do
-    root_url "https://github.com/VixsTy/redsocks/releases/download/0.7.7-macos"
-    sha256 "7021410bd73da7c3871de0db2f91761c76265ae2227ae8613e55e653bcea7c96" => :high_sierra
-    sha256 "d3e81a5a1b0fded4eb299bf0687980b31e8776733ce6086fdf2029e6747305ae" => :sierra
-    sha256 "89cfd55889658fb49d0584ce0bb329cead42fd14248820370e03b0a27d31ebcf" => :el_capitan
+    root_url "https://github.com/VixsTy/redsocks/releases/download/0.7.0-macos"
+    sha256 "81ce1f6324ba3f034cd4b912bf7e666c889801c8fce1b4b202a0b16a48a5e120" => :high_sierra
+    sha256 "d4fda826ccb9b79e573095b49931c780bafd4374f9d574afa36a92e8a7c351bf" => :sierra
+    sha256 "2c678f9c1af788abb6930529a0a0ff689e32635c95a409df1e3d6bedaae2e17c" => :el_capitan
   end
 
 
