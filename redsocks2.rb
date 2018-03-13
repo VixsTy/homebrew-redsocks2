@@ -28,6 +28,7 @@ class Redsocks2 < Formula
 
   bottle do
     root_url "https://github.com/VixsTy/redsocks/releases/download/0.7.0-macos"
+    cellar :any
     sha256 "81ce1f6324ba3f034cd4b912bf7e666c889801c8fce1b4b202a0b16a48a5e120" => :high_sierra
     sha256 "d4fda826ccb9b79e573095b49931c780bafd4374f9d574afa36a92e8a7c351bf" => :sierra
     sha256 "2c678f9c1af788abb6930529a0a0ff689e32635c95a409df1e3d6bedaae2e17c" => :el_capitan
