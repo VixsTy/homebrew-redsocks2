@@ -18,13 +18,20 @@ class Redsocks2 < Formula
 
   stable do
     url 'https://github.com/VixsTy/redsocks.git',
-      :using => GitNoDepthDownloadStrategy, :shallow => false, :tag => "0.7.5-macos"
-    version "0.7.5-macos"
+      :using => GitNoDepthDownloadStrategy, :shallow => false, :tag => "0.7.6-macos"
+    version "0.7.6-macos"
   end
 
   head do
     url 'https://github.com/VixsTy/redsocks.git',
       :using => GitNoDepthDownloadStrategy, :shallow => false
+  end
+
+  bottle do
+    root_url "https://github.com/VixsTy/redsocks/releases/download/0.7.6-macos"
+    sha256 "2390068306b4079770732a5b6ca608a69ed0a7ba74d6f4d89ea627c84922fc65" => :high_sierra
+    sha256 "efc80cb05381e7ee2a617655eb163ee352d607247662516b0897377f2a307484" => :sierra
+    sha256 "57bd8491c3e080f5af6de9e7ba80e1dc7d9a49770e2e22fab7419caf6d50e5bd" => :el_capitan
   end
 
 
