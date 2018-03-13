@@ -14,12 +14,11 @@ end
 class Redsocks2 < Formula
   desc "Transparent socks redirector"
   homepage "https://github.com/VixsTy/redsocks"
-  revision 1
+  version "0.7.6-macos"
 
   stable do
     url 'https://github.com/VixsTy/redsocks.git',
       :using => GitNoDepthDownloadStrategy, :shallow => false, :tag => "0.7.6-macos"
-    version "0.7.6-macos"
   end
 
   head do
