@@ -14,21 +14,16 @@ end
 class Redsocks2 < Formula
   desc "Transparent socks redirector"
   homepage "https://github.com/VixsTy/redsocks"
-  version "travis-test-22"
+  version "0.7.0-macos"
 
   stable do
     url 'https://github.com/VixsTy/redsocks.git',
-      :using => GitNoDepthDownloadStrategy, :shallow => false, :tag => "travis-test-22"
+      :using => GitNoDepthDownloadStrategy, :shallow => false, :tag => "0.7.0-macos"
   end
 
   head do
     url 'https://github.com/VixsTy/redsocks.git',
       :using => GitNoDepthDownloadStrategy, :shallow => false
-  end
-
-  bottle do
-    root_url "https://github.com/VixsTy/redsocks/releases/download/travis-test-22"
-    cellar :any
   end
 
   depends_on "openssl"
